@@ -9,7 +9,7 @@
 
 [![Live Web App](https://img.shields.io/badge/Live_App-emanuelebdc.com%2Fideas%2Faudio--visual--react-dfff00?style=for-the-badge&logo=googlechrome&logoColor=000000)](https://emanuelebdc.com/ideas/audio-visual-react/)
 [![Ideas Hub](https://img.shields.io/badge/Ideas_Hub-emanuelebdc.com%2Fideas-black?style=for-the-badge&logo=safari&logoColor=white)](https://emanuelebdc.com/ideas/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-emaf205%2Faudio--visual--react-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emaf205/audio-visual-react)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-emanuelebdc%2Faudio--visual--react-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emanuelebdc/audio-visual-react)
 [![Version 5.6.0](https://img.shields.io/badge/Version-5.6.0-black?style=for-the-badge)](VERSION.txt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 [![60 FPS Canvas](https://img.shields.io/badge/Performance-60_FPS-00f0ff?style=for-the-badge&logo=webgl&logoColor=000000)](https://emanuelebdc.com/ideas/audio-visual-react/)
@@ -157,6 +157,23 @@ Designed from the ground up for mobile broadcasting and instant smartphone opera
 
 ---
 
+## ✦ Scheda Tecnica // Technical Specifications
+
+| Parametro | Specifica Tecnica |
+|:---|:---|
+| **Piattaforma di Esecuzione** | 100% Client-Side Web Audio & 3D Canvas Stage (PWA & Offline) |
+| **Tecnologie Core** | HTML5 Canvas 2D (con calcolo prospettico 3D custom), Web Audio API, Vanilla ES6+ |
+| **Dipendenze 3D Esterne** | **0** (Zero Three.js, zero WebGL shaders, zero librerie npm grafiche) |
+| **Prestazioni Grafiche** | Locked **60 FPS** su Canvas 2D con depth sorting e vertex noise real-time |
+| **Motori Geometrici** | **7 Canali 3D** (Geodesic Spectrum, Hyper Tesseract, Cyber Warp Tunnel, ecc.) |
+| **Analisi Acustica** | Fast Fourier Transform (`fftSize: 512`, `smoothingTimeConstant: 0.8`), RMS metering |
+| **Design System** | Swiss Total Bold: 7 atmosfere cromatiche (inclusa Swiss Paper White light mode) |
+| **Controlli Broadcast** | HUD a scomparsa (<kbd>H</kbd>), marquee LED digitale (<kbd>T</kbd>), stazioni QR riposizionabili |
+| **Accessibilità & Ergonomia** | Conforme alla costituzione di Emanuele BDC (testo >=16px, focus-visible WCAG AA) |
+| **Privacy e Dati** | 100% Locale, elaborazione audio in RAM senza registrazione su server, safeStorageSet |
+
+---
+
 ## ✦ Technical Highlights & Architecture
 
 ```text
@@ -185,7 +202,7 @@ audio-visual-react/
 
 ```bash
 # Clone the repository
-git clone https://github.com/emaf205/audio-visual-react.git
+git clone https://github.com/emanuelebdc/audio-visual-react.git
 cd audio-visual-react
 
 # Start any local HTTP server
